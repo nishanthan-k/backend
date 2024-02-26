@@ -1,0 +1,25 @@
+1. HTTP
+2. HTTPS
+3. HTTP vs HTTPs
+4. IP
+5. DNS
+6. OSI model
+7. Handshake Protocol
+
+
+
+
+Data flow
+
+-> Sending an request
+
+	1. Browser parses the URL
+	2. Does a DNS Lookup (convert the domain into their IP like google.com to 142.250.192.142)
+	3. Now establishes a connection to the IP (does handshake)
+	
+
+-> Server handling the request
+	
+	1. Get the inputs (route, body, header)
+	2. Do some logic on the input and calculate the output
+	3. Return the output body, headers, status code
