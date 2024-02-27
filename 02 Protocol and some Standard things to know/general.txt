@@ -5,7 +5,10 @@
 5. DNS
 6. OSI model
 7. Handshake Protocol
-
+8. Port
+9. Route
+10. Headers, Body, Query params
+11. Api Method
 
 
 
