@@ -1,4 +1,16 @@
-GET 
-POST
+GET -> api call/route on url
+	-> changes in url on browser while hitting GET request
+	
+	
+POST -> calling an api but that api is not the route
+	 -> for example, 
+	 -> opening chatgpt => chat.openai.com
+	 -> creating an new chat => chat.openai.com/<random-code>
+	 -> sending the prompt "what are the basic api calls on the backend" => chat.openai.com/<same-random-code>
+	 	see the url/route doesn't get changed, it is the same chat url because the prompt was sent and handled at chat.openai.com/backend-api/conversation
+
+
 PUT
-PATCH
+
+
+DELETE
