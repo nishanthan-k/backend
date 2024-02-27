@@ -1,0 +1,18 @@
+200 - Everything is OK
+
+
+404 - Page / Route is not available
+
+
+403 - Authentication issues
+	
+	-> Access to the requested resource is forbidden
+	
+	-> Trying to access the unprivileged areas like Admin, System.
+	
+	-> Trying to open the paid version without having purchased it
+	
+
+500 - Internal server error
+
+	-> Error/Bug in backend
